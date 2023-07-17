@@ -3,7 +3,5 @@
 
 Vagrant.configure("2") do |config|
   config.vm.box = "bento/ubuntu-22.04-arm64"
-  config.vm.hostname = 'wp-do-learning'
-  config.ssh.username = "root"
-  config.ssh.insert_key = false
+  config.vm.hostname = 'wordpress-setup'
 end
