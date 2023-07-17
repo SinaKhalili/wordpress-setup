@@ -3,3 +3,6 @@ Just some scripts to setup a fresh DO server with nginx/mysql/php-fpm/wp. Vagran
 
 I'm using an M1 mac so the vagrantfile specifies the arm version of ubuntu from
 vagrant, even though DO is using intel.
+
+The setup is divided into three parts, each script is supposed to be run one after
+another.
